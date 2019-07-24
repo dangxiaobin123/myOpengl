@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3D35682180C84A01B3F8A8F9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 60AF5F7D88ED43E09DBE4E7C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E5403301986A4713B5198A67 /* CMake Rules */,
+			);
+			dependencies = (
+				F26E14CB5F8F4DBF813FBB8B /* PBXTargetDependency */,
+				F289DF8678CC4F6086E3DD6C /* PBXTargetDependency */,
+				4B6BB144F40E400CB4997593 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BE3682F09C6841E4853BD935 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6667EC85909D4B91813AE516 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EB3746975D3B46DB98BB799F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06FBC8D5C791402290A5D964 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4C5AE196DF094EDAA0A36A8F /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */; };
+		150296B9C52B4F8E8ABBCF4C /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c */ = {isa = PBXBuildFile; fileRef = 391CDC62770640C0B572C3FE /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c */; };
+		1A5843BA23184192A8D91D37 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.h */ = {isa = PBXBuildFile; fileRef = 56CEA79430E3488883147750 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.h */; };
+		22E602FD2A024DFB85C4DA27 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp */ = {isa = PBXBuildFile; fileRef = FE5B12B163014C339BDCC439 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp */; };
+		4C99459F58A84E02AD2D4DF3 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp */ = {isa = PBXBuildFile; fileRef = DC7508D4F87D44CCA4203F38 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp */; };
+		5A3A2BEEDAAD4C1994E31ACE /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp */ = {isa = PBXBuildFile; fileRef = 89B03987E8744A858BC6997B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp */; };
+		68ED6B25B2864FF1B616CF99 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 492EC7D39EAB45B2A6F761DC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */; };
+		7B123A86FCB8459F83DB3E94 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs */ = {isa = PBXBuildFile; fileRef = E8629A52993C4EB48DB8D391 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs */; };
+		93D160DEFE5547B8B044B6D6 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/types.h */ = {isa = PBXBuildFile; fileRef = 43D7F293F3AA41A192E9EE24 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/types.h */; };
+		AF6BBE54557543EF9E08E7AB /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.h */ = {isa = PBXBuildFile; fileRef = B6F9DEA7F50F44F9B9F93CDC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.h */; };
+		BB6D2EC7BE4A4421998A8C55 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/logger.h */ = {isa = PBXBuildFile; fileRef = C13D8A92D7734BB5B0322F1A /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/logger.h */; };
+		C0A08B6CCEBF400085C1699D /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp */ = {isa = PBXBuildFile; fileRef = 60A1B7E6CC4844B399940EE1 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp */; };
+		D09AFA6AEA644D05A5D05515 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.h */ = {isa = PBXBuildFile; fileRef = A33B8D99648B459AA9D20630 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.h */; };
+		D9CC5453020E4466B056E5EA /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp */ = {isa = PBXBuildFile; fileRef = 63380B1E45A44151801BE684 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp */; };
+		DDF9ADD8057F4335B76443D0 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.h */ = {isa = PBXBuildFile; fileRef = 4A13E9DB98F749109B5F5B3B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.h */; };
+		FA979E1B118C4B8CBE052343 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs */ = {isa = PBXBuildFile; fileRef = A256C78C840349EAB678C3BF /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5A6DD0E4E06644A7A01FCC21 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A5DD30B142E54D8A8253339D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A64BF2231D9B4669A2199F1D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D5F32D27B24C4453A79DC024 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0724261CA2E9451C9322B03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3682F09C6841E4853BD935;
+			remoteInfo = ZERO_CHECK;
+		};
+		2C6DE841DDB64ECBA5031B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE3673D370E4907ABF5734A;
+			remoteInfo = GLAD;
+		};
+		3D2F20D9124B49948D74C3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3682F09C6841E4853BD935;
+			remoteInfo = ZERO_CHECK;
+		};
+		53467EF7140142AEA9F86154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE3673D370E4907ABF5734A;
+			remoteInfo = GLAD;
+		};
+		73150F8F9D384BC29557298A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53E7282B05E4773A77A3D58;
+			remoteInfo = 1.getting_started__1.1.hello_window;
+		};
+		A73181CD19814AA395D37397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3682F09C6841E4853BD935;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C65E60634094C269F55023A /* GLAD */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLAD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		391CDC62770640C0B572C3FE /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = src/glad.c; sourceTree = SOURCE_ROOT; };
+		43D7F293F3AA41A192E9EE24 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = src/1.getting_started/1.1.hello_window/types.h; sourceTree = SOURCE_ROOT; };
+		492EC7D39EAB45B2A6F761DC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4A13E9DB98F749109B5F5B3B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader.h; path = src/1.getting_started/1.1.hello_window/shader.h; sourceTree = SOURCE_ROOT; };
+		4C5AE196DF094EDAA0A36A8F /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		56CEA79430E3488883147750 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_unix.h; path = src/1.getting_started/1.1.hello_window/file_unix.h; sourceTree = SOURCE_ROOT; };
+		60A1B7E6CC4844B399940EE1 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = src/1.getting_started/1.1.hello_window/shader.cpp; sourceTree = SOURCE_ROOT; };
+		63380B1E45A44151801BE684 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_util.cpp; path = src/1.getting_started/1.1.hello_window/file_util.cpp; sourceTree = SOURCE_ROOT; };
+		89B03987E8744A858BC6997B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_window.cpp; path = src/1.getting_started/1.1.hello_window/hello_window.cpp; sourceTree = SOURCE_ROOT; };
+		A256C78C840349EAB678C3BF /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vs.vs; path = src/1.getting_started/1.1.hello_window/vs.vs; sourceTree = SOURCE_ROOT; };
+		A33B8D99648B459AA9D20630 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = math_inc.h; path = src/1.getting_started/1.1.hello_window/math_inc.h; sourceTree = SOURCE_ROOT; };
+		A609187CC69E4920A76FFA6F /* 1.getting_started__1.1.hello_window */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 1.getting_started__1.1.hello_window; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F9DEA7F50F44F9B9F93CDC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_util.h; path = src/1.getting_started/1.1.hello_window/file_util.h; sourceTree = SOURCE_ROOT; };
+		C13D8A92D7734BB5B0322F1A /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = src/1.getting_started/1.1.hello_window/logger.h; sourceTree = SOURCE_ROOT; };
+		D5DD79026E28442CB5A337E3 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC7508D4F87D44CCA4203F38 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = math_inc.cpp; path = src/1.getting_started/1.1.hello_window/math_inc.cpp; sourceTree = SOURCE_ROOT; };
+		E8629A52993C4EB48DB8D391 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fs.fs; path = src/1.getting_started/1.1.hello_window/fs.fs; sourceTree = SOURCE_ROOT; };
+		FE5B12B163014C339BDCC439 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_unix.cpp; path = src/1.getting_started/1.1.hello_window/file_unix.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		43D991E419C340DBBD596906 /* 1.getting_started__1.1.hello_window */ = {
+			isa = PBXGroup;
+			children = (
+				5B894992223A436BBE165252 /* Header Files */,
+				8150C3B8FF4745658215A0EF /* Source Files */,
+				492EC7D39EAB45B2A6F761DC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */,
+				E8629A52993C4EB48DB8D391 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs */,
+				A256C78C840349EAB678C3BF /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs */,
+			);
+			name = 1.getting_started__1.1.hello_window;
+			sourceTree = "<group>";
+		};
+		47CD1C271FA849619A41A286 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		491F64579BBA49D9B85BF57E /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FEB4522D045D18CB740E5 /* Source Files */,
+				4C5AE196DF094EDAA0A36A8F /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */,
+			);
+			name = GLAD;
+			sourceTree = "<group>";
+		};
+		5B894992223A436BBE165252 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				56CEA79430E3488883147750 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.h */,
+				B6F9DEA7F50F44F9B9F93CDC /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.h */,
+				C13D8A92D7734BB5B0322F1A /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/logger.h */,
+				A33B8D99648B459AA9D20630 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.h */,
+				4A13E9DB98F749109B5F5B3B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.h */,
+				43D7F293F3AA41A192E9EE24 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7645AC56D32F4FB6918948E6 = {
+			isa = PBXGroup;
+			children = (
+				43D991E419C340DBBD596906 /* 1.getting_started__1.1.hello_window */,
+				491F64579BBA49D9B85BF57E /* GLAD */,
+				EF0826386CE847B1A65CEBC5 /* ALL_BUILD */,
+				959ADB267CA541EEA2AB6704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8FEB4522D045D18CB740E5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				391CDC62770640C0B572C3FE /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8150C3B8FF4745658215A0EF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B12B163014C339BDCC439 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp */,
+				63380B1E45A44151801BE684 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp */,
+				89B03987E8744A858BC6997B /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp */,
+				DC7508D4F87D44CCA4203F38 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp */,
+				60A1B7E6CC4844B399940EE1 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		959ADB267CA541EEA2AB6704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A609187CC69E4920A76FFA6F /* 1.getting_started__1.1.hello_window */,
+				2C65E60634094C269F55023A /* GLAD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0826386CE847B1A65CEBC5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				47CD1C271FA849619A41A286 /* CMake Rules */,
+				D5DD79026E28442CB5A337E3 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE3673D370E4907ABF5734A /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6A58B7B6784987A16CE4C7 /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				1AF2F0D75605420C8DCAC3BD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F38ADD321549DAB031DDC8 /* PBXTargetDependency */,
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 2C65E60634094C269F55023A /* GLAD */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E53E7282B05E4773A77A3D58 /* 1.getting_started__1.1.hello_window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6393096CB01B4095AB9EC3DB /* Build configuration list for PBXNativeTarget "1.getting_started__1.1.hello_window" */;
+			buildPhases = (
+				50228A73C4AE4C7A8CE8C2E0 /* Sources */,
+				CF46B136F58441A7B15BBB57 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E124DB67D74227AB93D5B6 /* PBXTargetDependency */,
+				54415E593D4D4EB08387B6D6 /* PBXTargetDependency */,
+			);
+			name = 1.getting_started__1.1.hello_window;
+			productName = 1.getting_started__1.1.hello_window;
+			productReference = A609187CC69E4920A76FFA6F /* 1.getting_started__1.1.hello_window */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CDCF27CD5044229EEAE6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = BAE33B46529E46C4B535D006 /* Build configuration list for PBXProject "LearnOpengl" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5A6DD0E4E06644A7A01FCC21 /* Debug */,
+				D5F32D27B24C4453A79DC024 /* Release */,
+				A5DD30B142E54D8A8253339D /* MinSizeRel */,
+				A64BF2231D9B4669A2199F1D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7645AC56D32F4FB6918948E6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				3D35682180C84A01B3F8A8F9 /* ALL_BUILD */,
+				E53E7282B05E4773A77A3D58 /* 1.getting_started__1.1.hello_window */,
+				CEE3673D370E4907ABF5734A /* GLAD */,
+				BE3682F09C6841E4853BD935 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05060A922B5A4533A0AE87C9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		33EBAE34EA4E4AC282B4A20D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CF46B136F58441A7B15BBB57 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode -f /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeScripts/1.getting_started__1.1.hello_window_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E5403301986A4713B5198A67 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode -f /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EB3746975D3B46DB98BB799F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode -f /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF2F0D75605420C8DCAC3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150296B9C52B4F8E8ABBCF4C /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50228A73C4AE4C7A8CE8C2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E602FD2A024DFB85C4DA27 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp */,
+				D9CC5453020E4466B056E5EA /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp */,
+				5A3A2BEEDAAD4C1994E31ACE /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp */,
+				4C99459F58A84E02AD2D4DF3 /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp */,
+				C0A08B6CCEBF400085C1699D /* /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B6BB144F40E400CB4997593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3682F09C6841E4853BD935 /* ZERO_CHECK */;
+			targetProxy = 3D2F20D9124B49948D74C3A3 /* PBXContainerItemProxy */;
+		};
+		54415E593D4D4EB08387B6D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3682F09C6841E4853BD935 /* ZERO_CHECK */;
+			targetProxy = 0724261CA2E9451C9322B03B /* PBXContainerItemProxy */;
+		};
+		C4E124DB67D74227AB93D5B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE3673D370E4907ABF5734A /* GLAD */;
+			targetProxy = 2C6DE841DDB64ECBA5031B78 /* PBXContainerItemProxy */;
+		};
+		E7F38ADD321549DAB031DDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3682F09C6841E4853BD935 /* ZERO_CHECK */;
+			targetProxy = A73181CD19814AA395D37397 /* PBXContainerItemProxy */;
+		};
+		F26E14CB5F8F4DBF813FBB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53E7282B05E4773A77A3D58 /* 1.getting_started__1.1.hello_window */;
+			targetProxy = 73150F8F9D384BC29557298A /* PBXContainerItemProxy */;
+		};
+		F289DF8678CC4F6086E3DD6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE3673D370E4907ABF5734A /* GLAD */;
+			targetProxy = 53467EF7140142AEA9F86154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CEDBAD8BE4D43598D577608 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		13CA0803A519469CBC36AE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework IOKit -framework OpenGL -framework CoreVideo /usr/local/lib/libglfw.dylib /usr/local/lib/libassimp.dylib /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/Debug/libGLAD.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		14E06018B94845EA8E7BC0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1B784F67358B4722A140507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/build;
+			};
+			name = Debug;
+		};
+		30C08DD057B342D38DADE55D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		3332A4BD01D844AEA8921F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		363B4BE395264C73AD3C66A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		414EE3CC4F67488CBC914014 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework IOKit -framework OpenGL -framework CoreVideo /usr/local/lib/libglfw.dylib /usr/local/lib/libassimp.dylib /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/MinSizeRel/libGLAD.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		49D50CF9FA01436FBB9CFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework IOKit -framework OpenGL -framework CoreVideo /usr/local/lib/libglfw.dylib /usr/local/lib/libassimp.dylib /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/Release/libGLAD.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4CAD4D4983844C8999A5C228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/build;
+			};
+			name = Release;
+		};
+		7824C3E9EF3F4652A43E0833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7C2FDABA12AD4F92B63F4632 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		7EB21D5F1FED4BF8B043410A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CCF47C088FC0400A8F634860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D4488055CBD740EBB8B68234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D5E96A8DDF584560B4A46ECF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD3C9A7AC2034477BC9F6CB6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC8033DEF7564BD0B53FB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EC84D5EE4F52420FA3D064CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3A1A164AE9E4382ACE12029 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/System/Library/Frameworks,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/configuration,/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dangxiaobin01/Documents/myProject/LearnOpengl/lib";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework IOKit -framework OpenGL -framework CoreVideo /usr/local/lib/libglfw.dylib /usr/local/lib/libassimp.dylib /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/RelWithDebInfo/libGLAD.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 1.getting_started__1.1.hello_window;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6A58B7B6784987A16CE4C7 /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7824C3E9EF3F4652A43E0833 /* Debug */,
+				D4488055CBD740EBB8B68234 /* Release */,
+				DD3C9A7AC2034477BC9F6CB6 /* MinSizeRel */,
+				363B4BE395264C73AD3C66A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60AF5F7D88ED43E09DBE4E7C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF47C088FC0400A8F634860 /* Debug */,
+				3332A4BD01D844AEA8921F33 /* Release */,
+				D5E96A8DDF584560B4A46ECF /* MinSizeRel */,
+				0CEDBAD8BE4D43598D577608 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6393096CB01B4095AB9EC3DB /* Build configuration list for PBXNativeTarget "1.getting_started__1.1.hello_window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CA0803A519469CBC36AE09 /* Debug */,
+				49D50CF9FA01436FBB9CFDA1 /* Release */,
+				414EE3CC4F67488CBC914014 /* MinSizeRel */,
+				F3A1A164AE9E4382ACE12029 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6667EC85909D4B91813AE516 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E06018B94845EA8E7BC0CE /* Debug */,
+				EC8033DEF7564BD0B53FB7F5 /* Release */,
+				EC84D5EE4F52420FA3D064CB /* MinSizeRel */,
+				7EB21D5F1FED4BF8B043410A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAE33B46529E46C4B535D006 /* Build configuration list for PBXProject "LearnOpengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B784F67358B4722A140507A /* Debug */,
+				4CAD4D4983844C8999A5C228 /* Release */,
+				30C08DD057B342D38DADE55D /* MinSizeRel */,
+				7C2FDABA12AD4F92B63F4632 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7CDCF27CD5044229EEAE6C9 /* Project object */;
+}

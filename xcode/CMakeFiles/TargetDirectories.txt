@@ -1,0 +1,4 @@
+/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeFiles/1.getting_started__1.1.hello_window.dir
+/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeFiles/GLAD.dir
+/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/CMakeFiles/ZERO_CHECK.dir

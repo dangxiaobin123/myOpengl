@@ -1,0 +1,51 @@
+The system is: Darwin - shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+18.5.0 - shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e834/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9e834.dir/build.make CMakeFiles/cmTC_9e834.dir/build
+Building C object CMakeFiles/cmTC_9e834.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_9e834.dir/testCCompiler.c.o   -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9e834
+/usr/local/Cellar/cmake/3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e834.dir/link.txt --verbose=1
+/usr/bin/clang   -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e834.dir/testCCompiler.c.o  -o cmTC_9e834 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10104/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10104.dir/build.make CMakeFiles/cmTC_10104.dir/build
+Building C object CMakeFiles/cmTC_10104.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_10104.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_10104
+/usr/local/Cellar/cmake/3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10104.dir/link.txt --verbose=1
+/usr/bin/clang   -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10104.dir/CMakeCCompilerABI.c.o  -o cmTC_10104 
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92686/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92686.dir/build.make CMakeFiles/cmTC_92686.dir/build
+Building CXX object CMakeFiles/cmTC_92686.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_92686.dir/testCXXCompiler.cxx.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_92686
+/usr/local/Cellar/cmake/3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92686.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92686.dir/testCXXCompiler.cxx.o  -o cmTC_92686 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_809ec/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_809ec.dir/build.make CMakeFiles/cmTC_809ec.dir/build
+Building CXX object CMakeFiles/cmTC_809ec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_809ec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_809ec
+/usr/local/Cellar/cmake/3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809ec.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_809ec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_809ec 
+
+
