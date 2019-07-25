@@ -1,7 +1,8 @@
 language: cpp
 compile: clang
 before_install: 
-    - cd build
+    - mkdir cibuild
+    - cd cibuild
     - cmake .. 
     - make
 notifications: 
