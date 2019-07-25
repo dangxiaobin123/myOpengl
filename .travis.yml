@@ -1,0 +1,8 @@
+language: cpp
+compile: clang
+before_install: 
+    - cd build
+    - cmake.. 
+    - make
+notifications: 
+    email: false
