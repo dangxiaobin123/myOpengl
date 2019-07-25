@@ -2,7 +2,7 @@ language: cpp
 compile: clang
 before_install: 
     - cd build
-    - cmake.. 
+    - cmake .. 
     - make
 notifications: 
     email: false
