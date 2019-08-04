@@ -1,0 +1,10 @@
+language: cpp
+compile: clang
+before_install: 
+    - brew install assimp glm glfw
+    - mkdir cibuild
+    - cd cibuild
+    - cmake .. 
+    - make
+notifications: 
+    email: false
