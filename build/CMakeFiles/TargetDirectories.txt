@@ -1,4 +1,5 @@
-/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/rebuild_cache.dir
-/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/edit_cache.dir
-/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/1.getting_started__1.1.hello_window.dir
-/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/GLAD.dir
+/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/rebuild_cache.dir
+/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/edit_cache.dir
+/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/1.getting_started__1.1.hello_window.dir
+/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/GLAD.dir
+/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/STB_IMAGE.dir

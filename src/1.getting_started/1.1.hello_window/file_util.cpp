@@ -26,3 +26,27 @@ void file2string(const char *filename, std::string *content)
         *content = string;
     }
 }
+
+unsigned int bkdr_hash(const char *str)
+{
+    unsigned int seed = 131;
+    unsigned int hash = 0;
+
+    while (*str)
+    {
+        hash = hash * seed + (*str++);
+    }
+    return hash & 0x7FFFFFFF;
+}
+
+void split_base_filename(const std::string &full_name, std::string &base_name, std::string &extention)
+{
+    std::string::size_type i = full_name.find_last_of('.');
+    if ( i == std::string::npos) {
+        extention = "";
+        base_name = full_name;
+    } else {
+        extention = full_name.substr(i+1);
+        base_name = full_name.substr(0, i);
+    }
+}

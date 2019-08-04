@@ -3,13 +3,28 @@
 .SUFFIXES: 
 all: \
 	1.getting_started__1.1.hello_window_buildpart_0\
-	1.getting_started__1.1.hello_window_buildpart_1
+	1.getting_started__1.1.hello_window_buildpart_1\
+	1.getting_started__1.1.hello_window_buildpart_2\
+	1.getting_started__1.1.hello_window_buildpart_3\
+	1.getting_started__1.1.hello_window_buildpart_4
 
 
 1.getting_started__1.1.hello_window_buildpart_0: 
-	echo "mklink /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs -> /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/vs.vs"
-	/usr/local/Cellar/cmake/3.11.4/bin/cmake -E create_symlink /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/vs.vs /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/vs.vs
+	echo "mklink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/cube.vs -> /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/cube.vs"
+	/Applications/CMake.app/Contents/bin/cmake -E create_symlink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/cube.vs /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/cube.vs
 
 1.getting_started__1.1.hello_window_buildpart_1: 
-	echo "mklink /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs -> /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/fs.fs"
-	/usr/local/Cellar/cmake/3.11.4/bin/cmake -E create_symlink /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/fs.fs /Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/bin/1.getting_started/fs.fs
+	echo "mklink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/light.vs -> /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/light.vs"
+	/Applications/CMake.app/Contents/bin/cmake -E create_symlink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/light.vs /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/light.vs
+
+1.getting_started__1.1.hello_window_buildpart_2: 
+	echo "mklink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/vs.vs -> /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/vs.vs"
+	/Applications/CMake.app/Contents/bin/cmake -E create_symlink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/vs.vs /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/vs.vs
+
+1.getting_started__1.1.hello_window_buildpart_3: 
+	echo "mklink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/fs.fs -> /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/fs.fs"
+	/Applications/CMake.app/Contents/bin/cmake -E create_symlink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/fs.fs /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/fs.fs
+
+1.getting_started__1.1.hello_window_buildpart_4: 
+	echo "mklink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/light.fs -> /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/light.fs"
+	/Applications/CMake.app/Contents/bin/cmake -E create_symlink /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/light.fs /Users/dangxiaobin/Desktop/github/myOpengl/xcode/bin/1.getting_started/light.fs

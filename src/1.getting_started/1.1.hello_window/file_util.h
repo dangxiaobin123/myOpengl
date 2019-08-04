@@ -15,4 +15,8 @@
 
 void file2string(const char *filename, std::string *content);
 
+unsigned int bkdr_hash(const char *str);
+
+void split_base_filename(const std::string &full_name, std::string &base_name, std::string &extention);
+
 #endif /* !FILE_UTIL_H */

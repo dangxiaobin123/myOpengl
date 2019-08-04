@@ -1,32 +1,52 @@
 [
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes  -std=c++11   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/file_unix.cpp.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/asset.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/asset.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/asset.cpp"
 },
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes  -std=c++11   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/file_util.cpp.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/file_unix.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/file_unix.cpp"
 },
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes  -std=c++11   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/file_util.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/file_util.cpp"
 },
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes  -std=c++11   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/math_inc.cpp.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/hello_window.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/hello_window.cpp"
 },
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes  -std=c++11   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/shader.cpp.o -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/1.getting_started/1.1.hello_window/shader.cpp"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/math_inc.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/math_inc.cpp"
 },
 {
-  "directory": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build",
-  "command": "/usr/bin/clang  -I/System/Library/Frameworks -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/configuration -I/Users/dangxiaobin01/Documents/myProject/LearnOpengl/includes    -o CMakeFiles/GLAD.dir/src/glad.c.o   -c /Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c",
-  "file": "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c"
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/resource.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/resource.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/resource.cpp"
+},
+{
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/shader.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/shader.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/shader.cpp"
+},
+{
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/1.getting_started__1.1.hello_window.dir/src/1.getting_started/1.1.hello_window/texture.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/texture.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/1.getting_started/1.1.hello_window/texture.cpp"
+},
+{
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang  -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/GLAD.dir/src/glad.c.o   -c /Users/dangxiaobin/Desktop/github/myOpengl/src/glad.c",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/glad.c"
+},
+{
+  "directory": "/Users/dangxiaobin/Desktop/github/myOpengl/build",
+  "command": "/usr/bin/clang++   -I/System/Library/Frameworks -I/Users/dangxiaobin/Desktop/github/myOpengl/build/configuration -I/Users/dangxiaobin/Desktop/github/myOpengl/includes  -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o -c /Users/dangxiaobin/Desktop/github/myOpengl/src/stb_image.cpp",
+  "file": "/Users/dangxiaobin/Desktop/github/myOpengl/src/stb_image.cpp"
 }
 ]

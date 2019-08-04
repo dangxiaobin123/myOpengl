@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/src/glad.c" "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/build/CMakeFiles/GLAD.dir/src/glad.c.o"
+  "/Users/dangxiaobin/Desktop/github/myOpengl/src/glad.c" "/Users/dangxiaobin/Desktop/github/myOpengl/build/CMakeFiles/GLAD.dir/src/glad.c.o"
   )
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dangxiaobin01/Documents/myProject/LearnOpengl
+# Install script for directory: /Users/dangxiaobin/Desktop/github/myOpengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/dangxiaobin01/Documents/myProject/LearnOpengl/xcode/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/dangxiaobin/Desktop/github/myOpengl/xcode/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
